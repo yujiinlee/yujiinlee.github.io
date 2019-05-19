@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2019-05-20T01:59:15+09:00</lastmod>
+<lastmod>2019-05-20T02:27:46+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/contact</loc>
-<lastmod>2019-05-20T01:59:15+09:00</lastmod>
+<lastmod>2019-05-20T02:27:46+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thanks</loc>
-<lastmod>2019-05-20T01:59:15+09:00</lastmod>
+<lastmod>2019-05-20T02:27:46+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/int-exjet</loc>
@@ -55,10 +55,6 @@
 <url>
 <loc>http://localhost:4000/blog/ths-cube</loc>
 <lastmod>2017-05-16T09:34:44+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/ths-jkm</loc>
-<lastmod>2017-05-23T09:56:45+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/skctopsd</loc>
