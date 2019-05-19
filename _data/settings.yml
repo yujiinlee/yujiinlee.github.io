@@ -113,7 +113,7 @@ font_settings:
     small_size: 20
     medium_size: 24
     large_size: 28
-    weight: 500
+    weight: 700
     letter_spacing: 0
     line_height: 1.2
   h3:
@@ -145,11 +145,11 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 15
-    medium_size: 17
+    small_size: 16
+    medium_size: 19
     large_size: 19
     weight: 400
-    letter_spacing: 0
+    letter_spacing:
     line_height: 1.8
   blockquote:
     small_size: 15
