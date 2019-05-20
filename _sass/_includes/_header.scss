@@ -177,7 +177,7 @@
 
 .menu__list {
 	list-style: none;
-	margin: 0 auto;
+	margin: 20px auto;
 	padding: 30px;
 
 	@include mq(tabletp) {
@@ -193,10 +193,14 @@
 }
 
 .menu__list__item {
+    
+    margin-bottom: 16px;
 
 	@include mq(tabletl) {
 		display: inline-block;
 		margin-left: 20px;
+        margin-bottom: 16px;
+
 
 		&:first-child {
 			margin-left: 0;
