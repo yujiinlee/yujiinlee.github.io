@@ -37,13 +37,13 @@
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
 	<meta name="twitter:description" content="{{ page.description }}">
 	<meta name="twitter:image" content="{{ site.url }}{{ page.featured_image }}">
-    <meta name="twitter:image" content="https://imgur.com/a/BvMcIz9?'.uniqid().'">
+    <meta name="twitter:image" content="/img/opengraph.png">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description }}" />
     <meta property="og:image" content="{{ site.url }}{{ page.featured_image }}" />
-    <meta property="og:image" content="http://imgur.com/a/rhuRxdm" />
+    <meta property="og:image" content="/img/opengraph.png" />
 
 
 	{% if site.data.settings.font_settings.font_embed %}
