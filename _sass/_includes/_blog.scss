@@ -5,12 +5,28 @@
 // - - - - - - - - - - - - - - - - - -
 
 .blog {
-	padding: 0 $grid-spacing/2;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 30px;
 }
 
 .blog-wrap {
-    max-width: 75%;
-    margin: 0 auto;
+    max-width: 100%;
+    
+    @include mq(tabletp) {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    @include mq(tabletl) {
+        max-width: 80%;
+        margin: 0 auto;
+        }
+
+    @include mq(laptop) {
+        max-width: 75%;
+        margin: 0 auto;
+        }
 }
 
 .blog-post {
