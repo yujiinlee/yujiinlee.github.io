@@ -16,8 +16,6 @@
 // @codekit-prepend "/plugins/owl.js"
 // @codekit-prepend "/plugins/waypoints.js"
 
-
-
 (function ($) {
 	'use strict';
 
@@ -392,8 +390,6 @@
 			$('.menu').removeClass('menu--open');
 		}
 	});
-
-
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Contact Form
 

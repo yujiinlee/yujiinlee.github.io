@@ -3,6 +3,7 @@ title: 'Samsung Galaxy Theme'
 subtitle: 'UI/UX'
 date: 2018-06-30 00:00:00
 description: 
+category: UI/UX
 featured_image: '/img/theme/samsung_theme.png'
 ---
 

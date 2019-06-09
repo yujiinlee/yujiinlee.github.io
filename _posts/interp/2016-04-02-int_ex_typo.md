@@ -5,7 +5,7 @@ date: 2016-04-02 23:07:05
 tags:
 - 그래픽디자인
 - 번역
-categories: 번역
+categories: Translation
 featured_image: '/img/opengraph.png'
 ---
 

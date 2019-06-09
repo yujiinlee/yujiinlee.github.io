@@ -7,7 +7,7 @@ categories: 번역
 tags: 
 - UI디자인
 - 번역
-categories: 번역
+categories: Translation
 featured_image: '/img/opengraph.png'
 ---
 6/21일, Zeplin의 혁신적인 2.0 업데이트가 있었습니다. 한글로도 편히 읽혔으면 해서 간단히 번역을 해보았습니다. 이미지는 혹시모를 저작권 문제로 가져오지 않았으니 원문에서 확인해주세요. 원문링크는 [이쪽](https://blog.zeplin.io/introducing-zeplin-2-0-components-and-a-ton-more-goodies-7c09dacc1f48)입니다.

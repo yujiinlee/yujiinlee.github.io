@@ -4,7 +4,7 @@ title: "[토크] 일민 <그2서> — 스몰스튜디오에서 엑스스몰 
 tags: 
 - 그래픽디자인 
 - 토크
-
+categories: Thoughts
 featured_image: '/img/opengraph.png'
 ---
 
