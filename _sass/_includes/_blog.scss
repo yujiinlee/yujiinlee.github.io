@@ -22,8 +22,9 @@
         margin: 100px 0 48px 0;
 		@include translate(0,-50%);
     
-        @media screen and (max-width:320px) { 
-        margin: 84px 0 24px 0;
+        @media screen and (max-width:500px) { 
+        margin: 84px 0 36px 0;
+        float: left;
         }
     
 }
@@ -31,6 +32,11 @@
 .category-name {
     font-weight: 500;
     font-size: 16px;
+    color: &text-light-color;
+    
+    @media screen and (max-width:500px) { 
+        color: #87899D;
+    }
     
     @media screen and (max-width:320px) { 
     font-size: 13.5px;
@@ -83,8 +89,12 @@
     @media screen and (max-width:500px) { 
     margin: 0 4px 0 4px; 
     font-size: 12px;
-
     } 
+    
+    @media screen and (max-width:320px) { 
+        color: #E4E9E9;
+    }
+
 }
 
 .blog-wrap {
