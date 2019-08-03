@@ -3,7 +3,6 @@ layout: post
 title: "[번역] 제플린 2.0을 소개하며 — 컴포넌트, 그리고 그 외에 아주 많은 좋은 것들"
 catalog: true
 date: 2018-06-23 22:59:00
-categories: 번역
 tags: 
 - UI디자인
 - 번역
