@@ -399,7 +399,7 @@ body.loading {
 	}
 
 	@include mq(laptop) {
-		max-width: 70%;
+		max-width: 960px;
 	}
 }
 

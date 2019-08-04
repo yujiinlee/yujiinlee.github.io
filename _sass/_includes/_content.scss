@@ -90,7 +90,7 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 70%;
+			max-width: 960px;
 		} 
 	}
     
@@ -266,7 +266,7 @@
     
 	@include mq(laptop) {
 		margin: 40px auto;
-        max-width: 70%;
+        max-width: 960px;
 
 	}
 
