@@ -15,6 +15,8 @@ featured_image: '/img/naver_map/cover.png'
 - UX 디자인: 김민지, 우유리
 - GUI 디자인: 이유진, 김다은
 
+![](/img/naver_map/navermap_01.gif)
+
 
 I designed the GUI of Naver Map app for Samsung Galaxy Watch.
 The Galaxy Watch didn't have an essential map app to find a way. I designed the GUI following the Watch design system so that users can use Naver maps while driving or biking.
