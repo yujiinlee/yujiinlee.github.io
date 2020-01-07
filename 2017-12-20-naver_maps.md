@@ -1,5 +1,5 @@
 ---
-title: 'Naver Maps for <br> Samsung Galaxy Watch'
+title: 'Naver Maps for Samsung Galaxy Watch'
 subtitle: 'UI/UX'
 date: 2017-12-20 17:30:00
 description: 
@@ -16,6 +16,7 @@ featured_image: '/img/naver_map/cover.png'
 - GUI 디자인: 이유진, 김다은
 
 ![](/img/naver_map/navermap_01.gif)
+
 
 
 I designed the GUI of Naver Map app for Samsung Galaxy Watch.
