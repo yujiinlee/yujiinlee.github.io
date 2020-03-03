@@ -6,7 +6,7 @@ tags:
 - 그래픽디자인
 - 번역
 categories: Translation
-featured_image: '/img/opengraph.png'
+featured_image: 'img/opengraph.png'
 ---
 ![metahaven](https://frieze.com/sites/default/files/styles/main_image/public/main-images/Screen-Shot-2014-08-14-at-14.44.jpg?itok=iCc7lwfy)
 

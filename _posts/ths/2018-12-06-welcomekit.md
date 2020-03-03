@@ -8,7 +8,7 @@ header-img:
 tags: 
 - 생각
 categories: Design
-featured_image:
+featured_image: 'img/opengraph.png'
 ---
 
 [스포카 기술 블로그](https://spoqa.github.io/2018/12/06/welcome-kit.html)에 작성된 글입니다. 

@@ -6,7 +6,7 @@ categories: Translation
 tags: 
 - UI디자인
 - 번역
-featured_image: '/img/opengraph.png'
+featured_image: 'img/opengraph.png'
 ---
 본 글은 [John Cutler](https://twitter.com/johncutlefish)의 ['Hire More designers, OK?'](https://amplitude.com/blog/hire-more-designers)를 번역한 글입니다. 글 안에 사진이 포함되어 있지만, 동영상으로 보는 것이 이해가 훨씬 쉽기 때문에 영상과 함께 읽는 것을 추천합니다. 
 

@@ -6,7 +6,7 @@ tags:
 - 그래픽디자인
 - 번역
 categories: Translation
-featured_image: '/img/opengraph.png'
+featured_image: 'img/opengraph.png'
 ---
 
 오역이 있을 수 있습니다. 정확한 정보와 작업이미지를 원한다면 원문과 비교하며 읽는 것을 추천합니다. 또한 잘못된 번역에 대한 지적은 감사하게 받겠습니다.
