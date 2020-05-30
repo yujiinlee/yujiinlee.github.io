@@ -1,10 +1,13 @@
 basic_settings:
-  site_title: Jin Lee
+  site_title: YJ
   favicon_image: /img/favicon.ico
 
 header_settings:
   logo_image: 
   logo_width: 200
+  
+hero_settings:
+  background_image: /img/backgrounds/background-hero.svg
 
 menu_settings:
   menu_items:
@@ -14,6 +17,8 @@ menu_settings:
       url: '/blog/'
     - title: 'About'
       url: '/about'
+    - title: 'TIL'
+      url: 'https://www.notion.so/yujiinlee/99db2cca2abd4a11a53b192f819ec8c5?v=c5f3eb4662464a4aa3548fc124a6cbda'
 
 footer_settings:
   logo_image: 
@@ -22,7 +27,7 @@ footer_settings:
 
 
 grid_settings:
-  overlay_opacity: 0.8
+  overlay_opacity: 0.5
   grid_spacing: 10
 
 contact_settings:
@@ -67,14 +72,14 @@ color_settings:
   text_light_color: '#ABB7B7'
   accent_color: '#4A5AE2'
   border_color: '#dddddd'
-  overlay_background_color: '#fff'
-  overlay_text_color: '#4A5AE2'
+  overlay_background_color: '#2F3889'
+  overlay_text_color: '#fff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Source+Sans+Pro:400,500,700,900" rel="stylesheet">'
-  title_font: '"Montserrat", sans-serif'
+  title_font: '"Montserrat", serif;'
   body_font: '"Spoqa Han Sans", "Spoqa Han Sans JP", sans-serif'
   regular_weight: 400
   bold_weight: 700
@@ -82,7 +87,7 @@ font_settings:
     small_size: 20
     medium_size: 25
     large_size: 30
-    weight: 700
+    weight: 500
     letter_spacing: -0.02
   menu:
     small_size: 30

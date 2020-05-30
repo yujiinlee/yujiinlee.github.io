@@ -26,11 +26,11 @@
 .portfolio-item__link {
 	position: relative;
 	display: block;
+    transition: top ease 0.5s;
 
 	@include mq(tabletl) {
 
 		&:hover {
-
 			.portfolio-item__content {
 				opacity: 1;
 				visibility: visible;
@@ -41,6 +41,7 @@
 
 .portfolio-item__image {
 	width: 100%;
+
 }
 
 .portfolio-item__content {

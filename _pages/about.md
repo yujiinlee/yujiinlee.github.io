@@ -5,11 +5,12 @@ description:
 featured_image: /img/opengraph.png
 ---
 
-프로덕트 & 그래픽 디자이너 이유진입니다. <br>
+![about](/img/profile.png)
+
+프로덕트 디자이너 이유진입니다. <br>
 현재 [스포카](https://www.spoqa.com)에서 프로덕트 디자이너로 일하고 있습니다. <br>
 글 쓰고, 커뮤니티에서의 여러 사람들과 교류하고, 이벤트를 만드는 걸 즐깁니다.
 
-<hr>
 
 ### Work
 
@@ -26,19 +27,11 @@ featured_image: /img/opengraph.png
 * Adobe Design Achievement Awards, 세미 파이널리스트, 2017
 * 여성 디자이너 네트워킹 파티 WOOWHO 연사, 2017
 
-
-<br>
-
-![about](/img/opengraph.png)
-
-<br>
-
+<hr>
 
 Yujin Lee is a product & graphic designer based in seoul. <br>
 Now Working at [Spoqa](https://www.spoqa.com) as a Product designer. <br>
 I like writing, communicating with people, and creating events.
-
-<hr>
 
 ### Work
 

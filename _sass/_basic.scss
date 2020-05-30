@@ -398,30 +398,30 @@ body.loading {
 }
 
 .main-text {
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow:
-//    3px 3px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    color: #2A2F36;
+    font-family: 'Source Code Pro', monospace;
+    //    text-shadow:
+////    3px 3px 0 #000,
+//    -1px -1px 0 #000,
+//    1px -1px 0 #000,
+//    -1px 1px 0 #000,
+//    1px 1px 0 #000;  
     
     @media all and (max-width: 768px){	
             font-size: 3rem; 
-            font-weight: 900;
+            font-weight: 300;
             line-height: 1.2em;
 		}
 	/* 테블릿과 데스크탑 */
 	@media all and (min-width: 768px){
-		    font-size:5rem; 
-            font-weight: 900;
+		    font-size: 4.5rem; 
+            font-weight: 300;
             line-height: 1.2em;
 		}  
 	/* 테블릿 */
 	@media all and (min-width: 768px) and (max-width: 1024px){
-		    font-size:4rem; 
-            font-weight: 900;
+		    font-size: 4rem; 
+            font-weight: 300;
             line-height: 1.2em;
 }
     }
