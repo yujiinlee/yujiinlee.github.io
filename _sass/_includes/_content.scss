@@ -10,7 +10,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: -1;
-	max-width: 190%;
+	max-width: 100%;
 	display: none;
 
 	@include mq(tabletp) {

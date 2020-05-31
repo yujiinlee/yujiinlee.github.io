@@ -7,7 +7,7 @@ header_settings:
   logo_width: 200
   
 hero_settings:
-  background_image: /img/backgrounds/background-hero.svg
+  background_image: /img/backgrounds/banner.png
 
 menu_settings:
   menu_items:
