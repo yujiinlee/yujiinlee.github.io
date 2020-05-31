@@ -381,7 +381,7 @@ body.loading {
 .wrap{
 	position: relative;
 	margin: 0 auto;
-	max-width: 75%;
+	max-width: 85%;
 
 	@include mq(tabletp) {
 		padding: 0;
@@ -414,7 +414,7 @@ body.loading {
 		}
 	/* 테블릿과 데스크탑 */
 	@media all and (min-width: 768px){
-		    font-size: 4.5rem; 
+		    font-size: 4.8rem; 
             font-weight: 300;
             line-height: 1.2em;
 		}  

@@ -20,6 +20,7 @@
     
     @media all and (max-width: 767px) {
         width: 100%;
+        padding: 8px;
     }
 }
 
@@ -61,27 +62,28 @@
 }
 
 .portfolio-item__info {
-	text-align: center;
+    margin-top: 8px;
+    text-align: center;
+
 }
 
 .portfolio-item__title {
-	color: $overlay-text-color;
+    color: $overlay-text-color;
 	font-size: $grid-item-title-small;
-	font-weight: $grid-item-title-weight;
+	font-weight:  $grid-item-title-weight;
     margin-bottom: 0px;
-	letter-spacing: $grid-item-title-spacing;
 
 	@include mq(tabletp) {
 		font-size: $grid-item-title-medium;
 	}
 
 	@include mq(laptop) {
-		font-size: $grid-item-title-large;
+		font-size: $grid-item-title-medium;
 	}
 }
 
 .portfolio-item__subtitle {
-	margin-top: 5px;
+	margin-top: 2px;
 	color: rgba($overlay-text-color, 0.7);
 	font-size: $grid-item-subtitle-small;
 	font-weight: $grid-item-subtitle-weight;

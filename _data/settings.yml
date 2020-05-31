@@ -27,8 +27,8 @@ footer_settings:
 
 
 grid_settings:
-  overlay_opacity: 0.5
-  grid_spacing: 10
+  overlay_opacity: 0.8
+  grid_spacing: 12
 
 contact_settings:
   form_action: 'https://formspree.io/your@email.com'
@@ -72,14 +72,14 @@ color_settings:
   text_light_color: '#ABB7B7'
   accent_color: '#4A5AE2'
   border_color: '#dddddd'
-  overlay_background_color: '#2F3889'
-  overlay_text_color: '#fff'
+  overlay_background_color: '#fff'
+  overlay_text_color: '#2A2F36'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Source+Sans+Pro:400,500,700,900" rel="stylesheet">'
-  title_font: '"Montserrat", serif;'
+  title_font: '"Source Code Pro", monospace;'
   body_font: '"Spoqa Han Sans", "Spoqa Han Sans JP", sans-serif'
   regular_weight: 400
   bold_weight: 700
@@ -96,10 +96,10 @@ font_settings:
     weight: 400
     letter_spacing: 0
   grid_item_title:
-    small_size: 15
-    medium_size: 25
-    large_size: 30
-    weight: 700
+    small_size: 18
+    medium_size: 20
+    large_size: 20
+    weight: 500
     letter_spacing: -0.02
   grid_item_subtitle:
     small_size: 8
