@@ -8,18 +8,20 @@ featured_image: /img/opengraph.png
 ![about](/img/profile.png)
 
 프로덕트 디자이너 이유진입니다. <br>
-현재 [스포카](https://www.spoqa.com)에서 프로덕트 디자이너로 일하고 있습니다. <br>
+현재 우아한 형제들에서 프로덕트 디자이너로 일하고 있습니다. <br>
 글 쓰고, 커뮤니티에서의 여러 사람들과 교류하고, 이벤트를 만드는 걸 즐깁니다.
 
 
 ### Work
 
-* 스포카 프로덕트 디자이너, 2018. 08 - NOW
+* 우아한 형제들 프로덕트 디자이너, 2020. 09 - NOW
+* 스포카 프로덕트 디자이너, 2018. 08 - 2020. 09
 * 에이치나인 GUI 디자이너, 2017. 08 - 2018. 07
 * GuteForm 인턴 디자이너, 2015. 01 - 2015. 03
 
 ### Acticity
 
+* 스펙트럼 데이 #21 by 디자인 스펙트럼 연사, 2020
 * 프롬 디자이너 #7 세미나 연사, 2019
 * 제2회 여성기획자 컨퍼런스 기획 및 디자인, 2018
 * 제1회 여성기획자 컨퍼런스 기획 및 디자인, 2017
@@ -30,7 +32,7 @@ featured_image: /img/opengraph.png
 <hr>
 
 Yujin Lee is a product & graphic designer based in seoul. <br>
-Now Working at [Spoqa](https://www.spoqa.com) as a Product designer. <br>
+Now Working at Woowa Brothers as a Product designer. <br>
 I like writing, communicating with people, and creating events.
 
 ### Work
@@ -41,6 +43,7 @@ I like writing, communicating with people, and creating events.
 
 ### Acticity
 
+* Spectrum Day #21 by Design Spectrum, Speaker, 2020
 * From Designer #7, Speaker, 2019
 * 2st Women PM Conference, Organizer & Designer, 2018
 * 1st Women PM Conference, Organizer & Designer, 2017

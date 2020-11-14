@@ -17,8 +17,6 @@ menu_settings:
       url: '/blog/'
     - title: 'About'
       url: '/about'
-    - title: 'TIL'
-      url: 'https://www.notion.so/yujiinlee/99db2cca2abd4a11a53b192f819ec8c5?v=c5f3eb4662464a4aa3548fc124a6cbda'
 
 footer_settings:
   logo_image: 
