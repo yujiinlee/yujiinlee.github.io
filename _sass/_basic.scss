@@ -305,7 +305,7 @@ hr {
 }
 
 .page{
-	@include transition(all 0.4s cubic-bezier(.87,-.41,.19,1.44));
+	@include transition(all 0.7s cubic-bezier(0.25, 0.1, 0.25, 1.0));
 }
 
 body.loading {
@@ -313,20 +313,20 @@ body.loading {
 	.loader {
 		opacity: 1;
 		visibility: visible;
-		@include transition(all 0.4s ease-in-out 1s);
+		@include transition(all 0.7s ease-in-out 1s);
 	}
 
 	.page{
 		opacity: 0;
 		visibility: hidden;
-		@include transition(all 0.4s ease-in-out, transform 0s ease-in-out 0.4s);
+		@include transition(all 0.7s ease-in-out, transform 0s ease-in-out 0.7s);
 		@include translate(0,20px);
 	}
 
 	.footer {
 		opacity: 0;
 		visibility: hidden;
-		@include transition(all 0.4s ease-in-out);
+		@include transition(all 0.7s ease-in-out);
 	}
 }
 
