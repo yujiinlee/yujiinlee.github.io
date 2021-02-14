@@ -40,7 +40,11 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
 	<meta name="twitter:description" content="{{ page.description }}">
-	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}" />
+	<meta name="twitter:image:src" content="https://yujiinlee.github.io/img/opengraph.png">
+    
+    {% if page.image.feature %}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
