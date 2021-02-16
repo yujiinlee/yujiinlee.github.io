@@ -19,7 +19,7 @@ featured_image: /img/opengraph.png
 * 에이치나인 GUI 디자이너, 2017. 08 - 2018. 07
 * GuteForm 인턴 디자이너, 2015. 01 - 2015. 03
 
-### Acticity
+### Activity
 
 * 스펙트럼 데이 #21 by 디자인 스펙트럼 연사, 2020
 * 프롬 디자이너 #7 세미나 연사, 2019
