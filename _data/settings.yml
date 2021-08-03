@@ -1,13 +1,13 @@
 basic_settings:
-  site_title: YJ
-  favicon_image: /img/favicon.ico
+  site_title: Yujiiiiiiin
+  favicon_image: ../img/favicon.ico
 
 header_settings:
-  logo_image: 
-  logo_width: 200
+  logo_image: /img/backgrounds/logo.png
+  logo_width: 40
   
 hero_settings:
-  background_image: /img/backgrounds/banner.png
+  background_image: 
 
 menu_settings:
   menu_items:
@@ -65,10 +65,10 @@ social_settings:
 color_settings:
   background_color: '#fff'
   background_alt_color: '#f4f5f6'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#3E4056'
-  text_light_color: '#ABB7B7'
-  accent_color: '#4A5AE2'
+  text_dark_color: '#2E313B'
+  text_medium_color: '#2E313B'
+  text_light_color: '#ABAEB7'
+  accent_color: '#758FEC'
   border_color: '#dddddd'
   overlay_background_color: '#fff'
   overlay_text_color: '#2A2F36'

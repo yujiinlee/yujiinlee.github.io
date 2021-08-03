@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-	background: $background-color;
+	background:$background-color;
 	font-family: $body-font;
 	font-weight: $regular-weight;
 	font-style: normal;
@@ -393,13 +393,13 @@ body.loading {
 	}
 
 	@include mq(laptop) {
-		max-width: 960px;
+		max-width: 1156px;
 	}
 }
 
 .main-text {
-    color: #2A2F36;
-    font-family: 'Source Code Pro', monospace;
+    color: #2E3B3B;
+    font-family:'GalleryModern';
     //    text-shadow:
 ////    3px 3px 0 #000,
 //    -1px -1px 0 #000,
@@ -408,21 +408,21 @@ body.loading {
 //    1px 1px 0 #000;  
     
     @media all and (max-width: 768px){	
-            font-size: 3rem; 
+            font-size: 3.5rem; 
             font-weight: 300;
-            line-height: 1.2em;
+            line-height: 1.1em;
 		}
 	/* 테블릿과 데스크탑 */
 	@media all and (min-width: 768px){
-		    font-size: 4.8rem; 
+		    font-size: 5.5em; 
             font-weight: 300;
-            line-height: 1.2em;
+            line-height: 1.1em;
 		}  
 	/* 테블릿 */
 	@media all and (min-width: 768px) and (max-width: 1024px){
-		    font-size: 4rem; 
+		    font-size: 4.8rem; 
             font-weight: 300;
-            line-height: 1.2em;
+            line-height: 1.1em;
 }
     }
 
