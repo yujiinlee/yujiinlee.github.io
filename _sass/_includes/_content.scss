@@ -76,11 +76,11 @@
 	}
 
 	@include mq(tabletl) {
-		max-width: 80%;
+		max-width: 85%;
 	}
 
 	@include mq(laptop) {
-		max-width: 1180px;
+		max-width: 1280px;
 	}
 }
 
@@ -312,7 +312,7 @@
     
 	@include mq(laptop) {
 		margin: 40px auto;
-        max-width: 960px;
+        max-width: 1080px;
 
 	}
 

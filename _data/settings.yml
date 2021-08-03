@@ -76,9 +76,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Source+Sans+Pro:400,500,700,900" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
   title_font: '"Source Code Pro", monospace;'
-  body_font: '"Spoqa Han Sans", "Spoqa Han Sans JP", sans-serif'
+  body_font: '"Spoqa Han Sans Neo", sans-serif;'
   regular_weight: 400
   bold_weight: 700
   site_title:
@@ -95,14 +95,14 @@ font_settings:
     letter_spacing: 0
   grid_item_title:
     small_size: 18
-    medium_size: 20
-    large_size: 20
+    medium_size: 22
+    large_size: 22
     weight: 500
     letter_spacing: -0.02
   grid_item_subtitle:
-    small_size: 8
-    medium_size: 12
-    large_size: 15
+    small_size: 12
+    medium_size: 16
+    large_size: 16
     weight: 400
     letter_spacing: 0
   h1:

@@ -21,6 +21,9 @@ body {
     word-break: keep-all;
 }
 
+body, html {
+	a {cursor: url(../cursor.png), url(../cursor.cur), auto}
+}
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Typography
@@ -389,11 +392,11 @@ body.loading {
 	}
 
 	@include mq(tabletl) {
-		max-width: 75%;
+		max-width: 80%;
 	}
 
 	@include mq(laptop) {
-		max-width: 1156px;
+		max-width: 1200px;
 	}
 }
 

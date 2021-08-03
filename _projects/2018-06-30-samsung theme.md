@@ -1,6 +1,6 @@
 ---
 title: 'Samsung Galaxy Theme'
-subtitle: 'UI/UX'
+categories: 'UI/UX'
 date: 2018-06-30 00:00:00
 description: 
 category: UI/UX
