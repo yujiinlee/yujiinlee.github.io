@@ -3,7 +3,7 @@ basic_settings:
   favicon_image: ../img/favicon.ico
 
 header_settings:
-  logo_image: /img/backgrounds/logo.png
+  logo_image: /img/backgrounds/logo.svg
   logo_width: 40
   
 hero_settings:
