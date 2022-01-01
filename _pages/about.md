@@ -21,11 +21,12 @@ featured_image: /img/opengraph.png
 
 ### Activity
 
-* 스펙트럼 데이 #21 by 디자인 스펙트럼 연사, 2020
-* 프롬 디자이너 #7 세미나 연사, 2019
+* [커리어리 뉴스 큐레이터](https://careerly.co.kr/profiles/11563), 2020 ~ NOW
+* [WTM Korea IWD 2021](https://www.slideshare.net/YujinLee61/1000-246234346) 발표, 2021
+* [스펙트럼 데이 #21 by 디자인 스펙트럼](https://www.youtube.com/watch?v=tK6ORIqQ-Pw) 연사, 2020
+* [프롬 디자이너 #7 세미나](https://www.slideshare.net/YujinLee61/how-to-work-in-spoqa-157207465) 연사, 2019
 * 제2회 여성기획자 컨퍼런스 기획 및 디자인, 2018
 * 제1회 여성기획자 컨퍼런스 기획 및 디자인, 2017
-* <디자인 평론 3>, 글 '여성 디자이너는 미녀일 필요가 없다' 수록, 2017
 * Adobe Design Achievement Awards, 세미 파이널리스트, 2017
 * 여성 디자이너 네트워킹 파티 WOOWHO 연사, 2017
 
@@ -41,10 +42,12 @@ I like writing, communicating with people, and creating events.
 * GUI Designer at HNINE, 2017. 08 - 2018. 07
 * Intern Designer at GuteForm, 2015. 01 - 2015. 03
 
-### Acticity
+### Activity
 
-* Spectrum Day #21 by Design Spectrum, Speaker, 2020
-* From Designer #7, Speaker, 2019
+* [Careerly News curator](https://careerly.co.kr/profiles/11563), 2020 ~ NOW
+* [WTM Korea IWD 2021](https://www.slideshare.net/YujinLee61/1000-246234346), Speaker, 2021
+* [Spectrum Day #21 by Design Spectrum](https://www.youtube.com/watch?v=tK6ORIqQ-Pw), Speaker, 2020
+* [From Designer #7](https://www.slideshare.net/YujinLee61/how-to-work-in-spoqa-157207465), Speaker, 2019
 * 2st Women PM Conference, Organizer & Designer, 2018
 * 1st Women PM Conference, Organizer & Designer, 2017
 * Adobe Design Achievement Awards, Semi-finalist, Social Impact, 2017

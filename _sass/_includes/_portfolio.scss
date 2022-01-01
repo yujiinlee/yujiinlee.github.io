@@ -28,8 +28,7 @@
 .portfolio-item__link {
 	position: relative;
 	display: block;
-    transition: top ease 0.5s;
-	
+    transition: top ease 0.5s;	
 
 	@include mq(tabletl) {
 
@@ -45,6 +44,9 @@
 		}
 	}
 }
+
+a[href$='#'] { pointer-events: none; }
+
 
 .portfolio-item__image {
 	width: 100%;
