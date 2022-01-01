@@ -16,7 +16,7 @@ featured_image: /img/opengraph.png
 
 * 우아한 형제들 프로덕트 디자이너, 2020. 09 - NOW
 * 스포카 프로덕트 디자이너, 2018. 08 - 2020. 09
-* 에이치나인 GUI 디자이너, 2017. 08 - 2018. 07
+* 에이치나인 GUI 디자이너, 2017. 05 - 2018. 07
 * GuteForm 인턴 디자이너, 2015. 01 - 2015. 03
 
 ### Activity
@@ -38,8 +38,9 @@ I like writing, communicating with people, and creating events.
 
 ### Work
 
+* Product Designer at Woowa Bros., 2020. 09 - NOW
 * Product Designer at Spoqa, 2018. 08 - NOW
-* GUI Designer at HNINE, 2017. 08 - 2018. 07
+* GUI Designer at HNINE, 2017. 05 - 2018. 07
 * Intern Designer at GuteForm, 2015. 01 - 2015. 03
 
 ### Activity
