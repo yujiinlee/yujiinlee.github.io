@@ -44,12 +44,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
 	<meta name="twitter:description" content="{{ page.description }}">
-	<meta name="twitter:image" content="{{ site.url }}/img/profile.png">
-    
-    {% if page.featured_image %}
-	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="{{ page.featured_image | absolute_url }}">
-    {% endif %}
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
