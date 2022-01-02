@@ -44,11 +44,11 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
 	<meta name="twitter:description" content="{{ page.description }}">
-	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
+	<meta name="twitter:image" content="{{ site.url }}/img/profile.png">
     
-    {% if page.image.feature %}
+    {% if page.featured_image %}
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+	<meta name="twitter:image" content="{{ site.url }}/{{ page.featured_image }}">
     {% endif %}
 
 	<!-- Facebook OpenGraph -->
