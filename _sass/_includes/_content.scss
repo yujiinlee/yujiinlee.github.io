@@ -42,18 +42,18 @@
 }
 
 .intro_main {
-    padding: 48px 0 52px 0;
+    padding: 48px 0 54px 0;
 
 	@include mq(tabletp) {
-		padding: 56px 0 40px 0;
+		padding: 56px 0 44px 0;
 	}
 
 	@include mq(tabletl) {
-		padding: 64px 0 56px 0;
+		padding: 64px 0 60px 0;
 	}
 
 	@include mq(laptop) {
-		padding: 72px 0 64px 0;
+		padding: 72px 0 72px 0;
 	}
     
 	h1 {
@@ -62,6 +62,17 @@
 			white-space: pre-line;
 		}
 	}
+
+	
+	background-image: none;
+
+    @include mq(tabletl) {
+		background-image: url(/img/hero.png);
+		background-repeat: no-repeat;
+		background-position: 90% -40px;
+		background-size: contain;
+		animation: fadein 1s;
+    }
 }
 	
 .content-wrap {
