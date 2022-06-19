@@ -1,5 +1,5 @@
 ---
-title: 'Spoqa Welcome Kit'
+title: '스포카 웰컴키트'
 categories: 'Branding'
 date: 2018-06-30 00:00:00
 description: 
