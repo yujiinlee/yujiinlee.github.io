@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '디자인옵스 - 팀의 API'
+title: '[번역] 디자인옵스 - 팀의 API'
 catalog: true
 date: 2022-06-19 12:00:00
 subtitle: 

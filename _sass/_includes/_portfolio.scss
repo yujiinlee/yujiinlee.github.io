@@ -51,11 +51,11 @@ a[href$='#'] { pointer-events: none; }
 .portfolio-item__image {
 	width: 100%;
 	@include transition(all 0.2s ease-in-out);
-	border-radius: 4px;
+	border-radius: 8px;
 }
 
 .portfolio-item__image img{
-	border-radius: 4px;
+	border-radius: 8px;
 }
 
 .portfolio-item__content {
