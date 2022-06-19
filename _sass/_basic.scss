@@ -168,7 +168,12 @@ p, ul, ol {
 }
 
 ul, ol {
-	list-style-position: inside;
+	// list-style-position: inside;
+	padding-left: 20px;
+}
+
+ul ul {
+	margin-bottom: 0px !important;
 }
 
 blockquote {
