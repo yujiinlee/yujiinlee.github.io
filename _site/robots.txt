@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: http://yujiinlee.github.io/sitemap.xml
+
+User-agent: Twitterbot
+Disallow: *
+
+Allow: /images
+Allow: /archives

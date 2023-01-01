@@ -5,19 +5,6 @@ description:
 featured_image: '/img/opengraph.png'
 ---
 
-<!--
-<section class="intro">
-
-	<div class="wrap">
-
-		<div class="main-text">
-            I WRITE ABOUT <br>
-            THE THINGS <br>
-            I'M INTERESTED IN</div>
-		<p>관심있는 것들에 대한 글을 씁니다.</p>
-</section>
-    
--->
     
 <section class="blog">
      <div class="content-wrap blog-wrap">
@@ -77,7 +64,7 @@ featured_image: '/img/opengraph.png'
                       {{ post.date | date: "%B %-d, %Y" }}
                     </div>               
                     <div class="excerpt">
-                      {{ post.excerpt | truncatewords: 40, '...' }}
+                      {{ post.content | strip_html | truncate: 136, '...' | strip_newlines | markdownify }}
                     </div>
                 </header>
 

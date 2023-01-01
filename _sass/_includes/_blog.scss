@@ -124,10 +124,6 @@
     border-bottom: 1px solid $border-color;
     
   }
-  .excerpt {
-    margin-top: 1em;
-    color: #87899D;
-  }
 
 .blog-post__link {
 	position: relative;
@@ -221,9 +217,33 @@
 }
 
 .excerpt {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+    color: #87899D;
+	font-size: $p-small;
+	font-weight: $p-weight;
+	line-height: $p-lineheight;
+	letter-spacing: $p-spacing;
+
+	@include mq(tabletp) {
+		font-size: $p-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $p-large;
+	}
+
+	strong {
+		font-weight: $bold-weight;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+
   }
 
  
+
+
 

@@ -54,7 +54,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	margin-top: 44px;
+	margin-top: 64px;
     margin-bottom: 8px;
 	font-size: $h2-small;
 	font-weight: $h2-weight;
@@ -387,7 +387,7 @@ body.loading {
 //}
 
 .wrap{
-	position: relative;
+	position: relative; 
 	margin: 0 auto;
 	max-width: 85%;
 
@@ -435,9 +435,18 @@ body.loading {
     }
 
 .post-title {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1.4
+	font-size: $h1-small;
+	font-weight: $h1-weight;
+	line-height: $h1-lineheight;
+	letter-spacing: $h1-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h1-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h1-large;
+	}
 }
 
 // 애니메이션
@@ -452,50 +461,33 @@ body.loading {
   }
 
 
-@keyframes outer-left-01 {
-	from {
-	  transform: translateX(15%);
+
+.hero-text,
+.stroke {
+	max-width: 100%;
+
+	@include mq(tabletp) {
+		max-width: 90%;
 	}
-	to {
-	  transform: none;
+
+	@include mq(tabletl) {
+		max-width: 90%;
 	}
-  }
-  
-  @keyframes outer-left-02 {
-	from {
-	  transform: translateX(25%);
-	}
-	to {
-	  transform: none;
+
+	@include mq(laptop) {
+		max-width: 85%;
 	}
   }
 
-  @keyframes outer-left-03 {
-	from {
-	  transform: translateX(35%);
-	}
-	to {
-	  transform: none;
-	}
-  }
-
-  .line-01 {
+.hero-text, .stroke {
 	@media all and (min-width: 768px){
-		animation: outer-left-01 1s 1s ease both,
-		text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+		animation: text-clip 2s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
 	}
-  }
+	
+}
 
-  .line-02 {
-	@media all and (min-width: 768px){
-		animation: outer-left-02 1s 1s ease both,
-		text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-	}
-  }
-
-  .line-03 {
-	@media all and (min-width: 768px){
-		animation: outer-left-03 1s 1s ease both,
-		text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-	}
-  }
+// .stroke {
+// @media all and (min-width: 768px){
+// 	animation: fadein 2s cubic-bezier(0.5, 0, 0.1, 1) both;
+// 	}
+// }

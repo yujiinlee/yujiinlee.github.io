@@ -42,18 +42,18 @@
 }
 
 .intro_main {
-    margin: 48px 0 54px 0;
+    margin: 40px 0 44px 0;
 
 	@include mq(tabletp) {
-		margin: 56px 0 44px 0;
+		margin: 44px 0 48px 0;
 	}
 
 	@include mq(tabletl) {
-		margin: 64px 0 60px 0;
+		margin: 52px 0 56px 0;
 	}
 
 	@include mq(laptop) {
-		margin: 72px 0 100px 0;
+		margin: 56px 0 64px 0;
 	}
     
 	h1 {
@@ -67,7 +67,7 @@
 	background-image: none;
 
     @include mq(tabletl) {
-		background-image: url(/img/hero.png);
+		// background-image: url(/img/hero.png);
 		background-repeat: no-repeat;
 		background-position: 90% -40px;
 		background-size: contain;
@@ -129,10 +129,9 @@
 		} 
 	}
 
-
 .single {
 
-	h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+	h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote,  {
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 75%;
@@ -365,8 +364,14 @@
 	}
 }
 
+.post_content img {
+	max-width: 75%;
+}
+
+
 //.intro,
 //.header{
 //        background-origin: border-box;
 //        background-color: #4A5AE2;
 //}
+

@@ -8,16 +8,18 @@
 	padding: 0 $grid-spacing;
 }
 
-.portfolio-wrap {
-	
-}
+// .portfolio-wrap {
+//     display: flex;
+// 	flex-wrap: wrap;
+//     justify-content: space-between;
+// }
 
 .portfolio-item {
 	position: relative;
-	padding: 16px 16px 36px 16px;
+	padding: 24px 48px 36px 0;
 	float: left;
-	width: 50%;
-	
+	margin: auto;
+	width: 48%;
     
     @media all and (max-width: 767px) {
         width: 100%;
@@ -51,11 +53,11 @@ a[href$='#'] { pointer-events: none; }
 .portfolio-item__image {
 	width: 100%;
 	@include transition(all 0.2s ease-in-out);
-	border-radius: 8px;
+	border-radius: 2px;
 }
 
 .portfolio-item__image img{
-	border-radius: 8px;
+	border-radius: 2px;
 }
 
 .portfolio-item__content {

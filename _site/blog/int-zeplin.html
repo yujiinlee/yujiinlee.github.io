@@ -1,0 +1,403 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Yujin Lee
+
+	Duet Theme by https://jekyllthemes.io
+	Premium + free Jekyll themes for your blog or website.
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <!-- Facebook Like&Share -->
+	<script>
+		window.fbAsyncInit = function() {
+		  FB.init({
+			appId            : '586022718504523',
+			autoLogAppEvents : true,
+			xfbml            : true,
+			version          : 'v12.0'
+		  });
+		};
+	  </script>
+	  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js"></script>
+    
+     <!-- Twitter Share -->
+    
+    <script type='text/javascript'>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://static1.twitcount.com/js/twitcount.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitcount_plugins');</script>
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<title>[번역] 제플린 2.0을 소개하며 — 컴포넌트, 그리고 그 외에 아주 많은 좋은 것들 – Yujin Lee</title>
+	<meta name="description" content="">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="[번역] 제플린 2.0을 소개하며 — 컴포넌트, 그리고 그 외에 아주 많은 좋은 것들 – Yujin Lee">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image" content="http://localhost:4000/img/opengraph.png">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title" content="[번역] 제플린 2.0을 소개하며 — 컴포넌트, 그리고 그 외에 아주 많은 좋은 것들 – Yujin Lee" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="http://localhost:4000/img/opengraph.png" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style></style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+	
+</head>
+
+
+<body class="loading" data-site-url="http://localhost:4000" data-page-url="/blog/int-zeplin">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135210219-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135210219-1');
+</script>
+
+	<header class="header">
+
+	<div class="wrap">
+
+		
+		<a href="/" class="header__logo">
+			<img src="/img/backgrounds/logo.svg" class="header__logo__img">
+		</a>
+		
+
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					
+					<li class="menu__list__item">
+						<a href="/" class="menu__list__item__link">Works</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/blog/" class="menu__list__item__link">Blog</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/about" class="menu__list__item__link">About</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.0/axios.min.js"></script>
+
+</header>
+
+
+
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
+
+	<div class="page-loader"></div>
+
+	
+	<div class="page">
+
+		<div class="page__content" data-page-title="[번역] 제플린 2.0을 소개하며 — 컴포넌트, 그리고 그 외에 아주 많은 좋은 것들 – Yujin Lee">
+
+			<section class="intro">
+
+	<div class="wrap">
+
+		<h1>[번역] 제플린 2.0을 소개하며 — 컴포넌트, 그리고 그 외에 아주 많은 좋은 것들</h1>
+		<p>24 June 2018</p>
+        
+        <br>
+        <div class="fb-share-button" data-href="http://yujiinlee.github.io/blog/int-zeplin" data-layout="button_count"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">공유하기</a></div>
+        
+        <div class="fb-like fb-small" data-href="http://yujiinlee.github.io/blog/int-zeplin" data-width="" data-layout="button_count" data-action="like" data-share="false"></div>
+        
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+        </div>
+
+</section>
+
+<section class="single">
+    <div class="post_content">
+
+	    <p>6/21일, Zeplin의 혁신적인 2.0 업데이트가 있었습니다. 한글로도 편히 읽혔으면 해서 간단히 번역을 해보았습니다. 이미지는 혹시모를 저작권 문제로 가져오지 않았으니 원문에서 확인해주세요. 원문링크는 <a href="https://blog.zeplin.io/introducing-zeplin-2-0-components-and-a-ton-more-goodies-7c09dacc1f48">이쪽</a>입니다.</p>
+
+<hr />
+
+<p>먼저 감사인사를 드리며 시작하고 싶습니다. 우리가 제플린을 내놓은지 거의 3.5년이 지났고 이제는 전세계에서 수천개의 팀, 1500만명이 넘는 사람들에게 사용되고 있습니다. 오늘, 우리는 Zeplin 2.0이 우리 모두가 탐험할 준비가 되었다는 것을 알리게 되어 매우 기쁩니다!</p>
+
+<p>다뤄볼 것들이 아주 많습니다. 컴포넌트, 에셋 이름 변경, 대시보드 안의 풀사이즈 썸네일, 레이어 속성, 스타일 가이드, 그리고 대시보드를 위해 개편된 인터페이스 등등 말이죠. 시작해봅시다.</p>
+
+<hr />
+
+<h1 id="컴포넌트-components">컴포넌트 (Components)</h1>
+<p>디자인 시스템, 라이브러리, 컴포넌트. 최근에 우리는 이 주제들에 대해서 계속 듣고 이야기해왔습니다. 에어비앤비나 드롭박스 같은 많은 회사들은 이미 그들의 디자인 시스템 큐레이션을 전담하는 팀을 가지고 있습니다. 그런데 우리는, 지금 왜 디자인 시스템에 대해 이야기하고 있는걸까요? 확실한 답은 없지만 모든 것은 제품(Product) 문화가 진화하면서 시작되었습니다. 우리의 창작물을 단순한 앱이나 웹사이트가 아닌, 제품으로 접근하기 시작하면서 말이죠.</p>
+
+<p>제품은 단순히 유저 인터페이스, 유저 경험, 코드, 마이크로 인터렉션이나 언어에 관한 것만은 아닙니다. 이 모든 것이 조화롭게 함께 작동해야만 기분좋은 경험을 만들어낼 수가 있죠. 마케팅과 세일즈도 포함해서요.</p>
+
+<p>이런 깊은 대화들 안에서, 제플린의 목표는 항상 팀이 같은 이해도를 가지도록 하는 것입니다. 우리는 개발이 디자인 시스템과 만나는 중요한 퍼즐 조각을 찾기 위해 수많은 제플리너(Zeplin-er)들과 이야기를 하고, 조사하고 연구해왔습니다. 우리는 한 퍼즐조각이 디자인과 개발 워크플로우에 모두 공통적으로 사용된다는 것을 발견했습니다. 바로 컴포넌트죠.</p>
+
+<h2 id="그래서-컴포넌트란-무엇일까요">그래서 컴포넌트란 무엇일까요?</h2>
+<p>컴포넌트는 큰 전체의 일부, 또는 요소라고 정의할 수 있습니다. 인터페이스 디자인의 경우 간단히 말하면, 컴포넌트는 버튼, 텍스트 필드, 시각적 경험을 만들기 위해 함께 사용하는 셀과 같은 요소입니다.</p>
+
+<p>디자이너가 이러한 컴포넌트들을 엔지니어와 공유하는지 여부와는 상관없이 엔지니어는 이를 파악하기 위해 디자인을 살펴볼 가능성이 높습니다. 그들은 이렇게 재사용 가능한 요소들을 정의함으로써, 건강한 코드 베이스와 제품이 안정적이고 확장 가능하도록 유지합니다. 소규모 팀인 경우에도 잘 정의된 컴포넌트들을 사용하면 프로젝트 전반에서 보다 빠르고 일관되게 작업할 수 있으며, 동시에 트랜잭션 이메일, 스티커 또는 팀 대시 보드 등 모든 곳에서 동일한 경험을 제공할 수 있습니다.</p>
+
+<p>가장 중요한 것은, 에어비앤비 디자인 시스템의 디자인 리더인 Karri Saarinen이 그의 블로그 포스트 “시각 언어 만들기”에서 언급한 바와 같이, 컴포넌트는 살아 있는 유기체의 요소라는 점입니다. 컴포넌트는 유연해야 하며 언제든지 업데이트 될 수 있어야합니다. 그렇기 때문에 전체 프로덕트 팀이 같은 이해도를 가지는 것이 중요한 것이죠.</p>
+
+<h2 id="제플린-안에서-보는-컴포넌트">제플린 안에서 보는 컴포넌트</h2>
+<p>2.0 버전을 통해, 제플린은 디자인 시스템 생태계의 작은 부분에 초점을 맞추고 있습니다. 이제 스케치 심볼을 제플린으로 내보낼 수 있고, 이들은 프로젝트 스타일가이드의 컴포넌트 탭 아래에 정렬될 것입니다.</p>
+
+<p>☝️ Figma 컴포넌트와 Adobe XD CC 심볼에 대한 대응도 곧 이루어질 예정입니다.</p>
+
+<p>제품의 컴포넌트를 관리하는 것은 전혀 사소한 일이 아닙니다. 그래서 좀 더 구조적인 해결책을 제공하기 위해 많은 시간을 썼습니다. <strong>섹션 아래에 컴포넌트를 모을 수 있으며</strong> 이 섹션 안에서 <strong>그룹을 만들어 추가로 정리할 수도 있습니다.</strong></p>
+
+<p>우리는 팀이, 특히 엔지니어들이 이 컴포넌트에 대해 제대로 이해하기를 바랐습니다. <strong>제플린 안의 컴포넌트는 단순한 리스트가 아니라, 프로젝트 안의 스크린과 연결되어 있습니다.</strong></p>
+
+<p>엔지니어들이 제플린 안에서 컴포넌트의 일부인 레이어를 선택하면, 즉시 컴포넌트 또한 보여집니다. 그들이 살펴보고 있는 코드베이스 안에 이미 존재하는 것일 수도 있다는 점과, 만약 그것을 구현할 예정이라면 재사용과 설정 변경이 가능하도록 만들어야 한다는 점을 암시해줍니다.</p>
+
+<p>이와 비슷하게, 팀 내의 누군가가 리스트 내의 컴포넌트를 선택하면 그들은 어떤 화면에 해당 컴포넌트가 쓰였는지 볼 수 있고, 이에 따라 계획을 세울 수 있습니다.</p>
+
+<p>여기 간단하게 개요를 살펴볼 수 있는 짧은 데모 비디오가 있습니다.</p>
+
+<h2 id="제플린에서-컴포넌트-내보내기">제플린에서 컴포넌트 내보내기</h2>
+<p>새로울 것은 없습니다. 이전에 아트보드를 내보냈던 것과 똑같이 스케치에서 심볼을 내보낼 수 있습니다. 그리고 심볼들은 프로젝트 대시보드 대신 프로젝트 스타일 가이드 아래의 컴포넌트 탭에 추가될 것입니다.</p>
+
+<p>아무 갯수의 심볼을 선택하고 플러그인의 단축키인 Command, Control, E 를 누르기만 하면 됩니다.</p>
+
+<p>🤫 미리 엿보기#1: 이후의 버전에서는 제플린이 화면에서 사용된 컴포넌트들을 자동으로 가져오고 해당 컴포넌트들을 import 할 것을 제안할 것입니다.</p>
+
+<p>🤫 미리 엿보기 #2: 다음 업데이트에서는 구성 요소를 extensions에도 노출하여 컴포넌트에서 코드 조각을 생성할 수 있도록 할 계획입니다. 미리 체험해 보고 싶다면 언제든지 연락하세요!</p>
+
+<hr />
+
+<h1 id="20에서-추가로-살펴볼-것들">2.0에서 추가로 살펴볼 것들</h1>
+<p>2.0은 컴포넌트와 함께 더 많은 기능과 개선점으로 가득 차 있습니다.</p>
+
+<h2 id="에셋-이름-변경">에셋 이름 변경</h2>
+<p>아주 초창기부터 요청을 받아왔던 기능인데, 드디어 출시되었습니다! 이제 다운로드하거나 Xcode나 Android Studio로 내보내기 전에, 오른쪽 패널에서 에셋의 이름을 변경할 수 있습니다.</p>
+
+<p>☝️ 기술적인 문제로 인해, 현재는 로컬 세팅입니다. 향후 개선을 위한 피드백을 환영합니다.</p>
+
+<p>대시보드의 풀사이즈 썸네일
+이제 프로젝트 대시보드에서 스크린 썸네일을 풀 모바일 사이즈로 볼 수 있습니다. 프로젝트 대시보드의 오른쪽 패널 또한, 설명 입력 창을 추가하고 공유 기능에 더 쉽게 접근할 수 있도록 개선되었습니다.</p>
+
+<p>☝️만약 잘린 썸네일을 선호한다면, View 메뉴에서 설정을 끌 수 있습니다.</p>
+
+<h2 id="스케치에서의-일관된-내보내기-순서">스케치에서의 일관된 내보내기 순서</h2>
+<p>스케치의 아트보드와 심볼을 제플린으로 내보내기 할 때, 보통 얼마나 큰지와 얼마나 많은 이미지를 포함하고 있느냐에 따라 무작위로 내보내졌습니다. 이제 제플린에서도 <strong>원래 스케치에서의 아트보드와 심볼 순서를 지키는 실험적인 기능</strong>을 사용할 수 있습니다.</p>
+
+<p>이 기능은 아직 테스트 중입니다. 시도해보려면 상단 메뉴에 있는 “Zeplin &gt; Experimental &gt; Import in Order”를 사용해보세요. 같은 메뉴에서, 다음과 같은 어떤 분류 옵션을 사용할지도 선택할 수 있습니다.</p>
+
+<ol>
+  <li><strong>레이어 목록</strong>: 아트보드/심볼은 스케치의 왼쪽 패널에 있는 레이어 목록 순서에 따라 내보내집니다. 반대 순서로 내보내는 옵션 또한 선택할 수 있습니다.</li>
+  <li><strong>위치</strong>: 아트보드/심볼은 이미지에 보이는 것처럼 위치에 따라 내보내집니다.</li>
+</ol>
+
+<hr />
+
+<h1 id="노트-필터링">노트 필터링</h1>
+<p>솔직히 말하자면, 우리는 여러분이 Zeplin에서 노트와 전반적인 피드백 워크 플로우를 모니터링하는 방법을 개선해야 한다는 것을 알고 있습니다. 우리는 다음 몇달 동안 Zeplin의 노트를 개선하는 데 집중할 것이며, 특히 프로젝트의 모든 노트를 보고 추적할 수 있는 해결책을 찾을 것입니다.</p>
+
+<p>2.0에서는 화면의 노트를 필터링 하여 <strong>자신이 멘션된 노트만</strong>, 또는 특정 색으로 표시된 노트만 볼 수 있습니다.</p>
+
+<hr />
+
+<p>여기 당신이 놓치지 않았으면 하는 몇가지 훌륭한 언급들이 있습니다.</p>
+
+<ul>
+  <li>스타일 가이드의 색상 재정렬</li>
+  <li>복수의 에셋을 선택하고 그것들을 한번에 다운로드</li>
+  <li>프로젝트에 설명 추가</li>
+  <li>스타일 가이드의 인터페이스 개선</li>
+</ul>
+
+<p>우리가 그랬던 것 만큼 여러분도 2.0 버전의 컴포넌트와 다른 모든 좋은 것들에 신이 나셨길 바랍니다. 여러분이 생각한 것들을 어서 듣고 싶네요. support@zeplin.io. 로 연락주세요.</p>
+
+<p>감사합니다! 👋</p>
+
+    
+    </div>  
+    <div class="comments">
+        
+        <div class="fb-share-button" data-href="http://yujiinlee.github.io/blog/int-zeplin" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">공유하기</a></div>
+        
+        <div class="fb-like" data-href="http://yujiinlee.github.io/blog/int-zeplin" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
+        
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+    <div class="fb-comments" 
+         data-href=http://localhost:4000/blog/int-zeplin
+         data-width="100%" 
+         data-numposts="5" ></div>
+
+
+</section>
+
+
+		</div>
+
+	</div>
+
+
+	<footer class="footer">
+
+	<div class="wrap">
+
+		
+<!--
+		<a href="/" class="footer__title">
+			Yujin Lee
+		</a>
+-->
+		
+
+		<p class="footer__text"></p>
+
+		<div class="footer__copyright">
+			<span>© 2023 Yujin Lee</span>
+		</div>
+
+		<ul class="socials">
+	
+	
+	<li class="socials__item">
+		<a href="https://www.facebook.com/yujiin.leee" target="_blank" class="socials__item__link" title="Facebook">
+			<i class="fab fa-facebook-f" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://dribbble.com/yujiinlee" target="_blank" class="socials__item__link" title="Dribbble">
+			<i class="fab fa-dribbble" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.behance.net/yujiinlee" target="_blank" class="socials__item__link" title="Behance">
+			<i class="fab fa-behance" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.linkedin.com/in/yujin-lee-811640131/" target="_blank" class="socials__item__link" title="Linkedin">
+			<i class="fab fa-linkedin" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+</ul>
+
+	</div>
+
+</footer>
+
+
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/duet-min.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
+
+
+</body>
+
+</html>
