@@ -466,7 +466,8 @@ body.loading {
 
 .hero-text,
 .stroke {
-	max-width: 100%;
+	max-width: 115%;
+	width: 115%;
 
 	@include mq(tabletp) {
 		max-width: 90%;
