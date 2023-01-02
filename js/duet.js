@@ -162,12 +162,12 @@
 		$('.page__content').find('img:first').imagesLoaded( function() {
 	
 			// Portfolio grid layout
-			$('.portfolio-wrap').imagesLoaded( function() {
-				$('.portfolio-wrap').masonry({
-					itemSelector: '.portfolio-item',
-					transitionDuration: 0
-				});
-			});
+			// $('.portfolio-wrap').imagesLoaded( function() {
+			// 	$('.portfolio-wrap').masonry({
+			// 		itemSelector: '.portfolio-item',
+			// 		transitionDuration: 0
+			// 	});
+			// });
 
 			// Blog grid layout
 			$('.blog-wrap').imagesLoaded( function() {
