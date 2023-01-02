@@ -54,7 +54,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	margin-top: 64px;
+	margin-top: 44px;
     margin-bottom: 8px;
 	font-size: $h2-small;
 	font-weight: $h2-weight;
@@ -63,10 +63,12 @@ h2, .h2 {
 
 	@include mq(tabletp) {
 		font-size: $h2-medium;
+		margin-top: 56px
 	}
 
 	@include mq(laptop) {
 		font-size: $h2-large;
+		margin-top: 64px
 	}
 }
 

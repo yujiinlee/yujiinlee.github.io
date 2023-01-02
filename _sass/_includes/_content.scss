@@ -146,7 +146,7 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 960px;
+			max-width: 780px;
 		} 
 	}
     
@@ -161,8 +161,8 @@
     
 
 	hr {
-		margin-top: 60px;
-        margin-bottom: 60px;
+		margin-top: 36px;
+        margin-bottom: 36px;
         margin-left: auto;
         margin-right: auto;
 		width: calc(100vw - 60px);
@@ -175,10 +175,14 @@
 
 		@include mq(tabletl) {
 			max-width: 75%;
+			margin-top: 48px;
+        	margin-bottom: 48px;
 		}
 
 		@include mq(laptop) {
-			max-width: 70%;
+			max-width: 840px;
+			margin-top: 60px;
+        	margin-bottom: 60px;
 		}
 	}
 
