@@ -16,7 +16,7 @@
 
 .portfolio-item {
 	position: relative;
-	padding: 24px 48px 36px 0;
+	padding: 24px 24px 36px 0;
 	float: left;
 	margin: auto;
 	width: 48%;
@@ -53,11 +53,12 @@ a[href$='#'] { pointer-events: none; }
 .portfolio-item__image {
 	width: 100%;
 	@include transition(all 0.2s ease-in-out);
-	border-radius: 2px;
 }
 
 .portfolio-item__image img{
-	border-radius: 2px;
+	border-radius: 20px;
+	box-shadow: 0 4px 4px 1px rgba(204, 204, 204, .2);
+
 }
 
 .portfolio-item__content {
@@ -76,7 +77,7 @@ a[href$='#'] { pointer-events: none; }
 }
 
 .portfolio-item__info {
-    margin-top: 12px;
+    margin-top: 16px;
     text-align: left;
 
 }
@@ -86,6 +87,7 @@ a[href$='#'] { pointer-events: none; }
 	font-size: $grid-item-title-small;
 	font-weight:  $grid-item-title-weight;
     margin-bottom: 0px;
+	margin-top: 6px;
 	@include transition(all 0.2s ease-in-out);
 
 	@include mq(tabletp) {

@@ -97,7 +97,7 @@ font_settings:
     small_size: 18
     medium_size: 22
     large_size: 22
-    weight: 500
+    weight: 600
     letter_spacing: -0.02
   grid_item_subtitle:
     small_size: 12
