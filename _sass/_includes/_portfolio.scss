@@ -16,7 +16,7 @@
 
 .portfolio-item {
 	position: relative;
-	padding: 24px 24px 36px 0;
+	padding: 2% 2% 3% 2%;
 	float: left;
 	margin: auto;
 	width: 48%;
@@ -56,8 +56,8 @@ a[href$='#'] { pointer-events: none; }
 }
 
 .portfolio-item__image img{
-	border-radius: 20px;
-	box-shadow: 0 4px 4px 1px rgba(204, 204, 204, .2);
+	border-radius: 12px;
+	// box-shadow: 0 4px 4px 1px rgba(204, 204, 204, .2);
 
 }
 
