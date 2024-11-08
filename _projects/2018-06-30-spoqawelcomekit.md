@@ -3,7 +3,7 @@ title: '스포카 웰컴키트'
 categories: 'Branding'
 date: 2018-06-30 00:00:00
 description: 
-featured_image: '/img/00_projects/spoqa_welcome/0.jpg'
+featured_image: '/img/00_projects/spoqa_welcome/01.jpg'
 ---
 ![](/img/00_projects/spoqa_welcome/01.jpg)
 
