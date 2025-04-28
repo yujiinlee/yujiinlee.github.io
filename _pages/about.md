@@ -7,12 +7,10 @@ featured_image: /img/opengraph.png
 
 ![about](/img/profile.png)
 
-프로덕트 디자이너 이유진입니다. <br>
-현재 우아한 형제들에서 프로덕트 디자이너로 일하고 있습니다. <br>
-글 쓰고, 커뮤니티에서의 여러 사람들과 교류하고, 이벤트를 만드는 걸 즐깁니다.
+2017년부터 프로덕트 디자이너로 일하고 있는 이유진입니다. <br>
+사람에 대한 이해와 애정이 더 나은 디자인을 만든다고 믿습니다.
 
-
-### Work
+<!-- ### Work
 
 * 우아한 형제들 프로덕트 디자이너, 2020. 09 - NOW
 * 스포카 프로덕트 디자이너, 2018. 08 - 2020. 09
@@ -28,9 +26,9 @@ featured_image: /img/opengraph.png
 * 제2회 여성기획자 컨퍼런스 기획 및 디자인, 2018
 * 제1회 여성기획자 컨퍼런스 기획 및 디자인, 2017
 * Adobe Design Achievement Awards, 세미 파이널리스트, 2017
-* 여성 디자이너 네트워킹 파티 WOOWHO 연사, 2017
+* 여성 디자이너 네트워킹 파티 WOOWHO 연사, 2017 -->
 
-<hr>
+<!-- <hr>
 
 Yujin Lee is a product & graphic designer based in seoul. <br>
 Now Working at Woowa Brothers as a Product designer. <br>
@@ -52,7 +50,7 @@ I like writing, communicating with people, and creating events.
 * 2st Women PM Conference, Organizer & Designer, 2018
 * 1st Women PM Conference, Organizer & Designer, 2017
 * Adobe Design Achievement Awards, Semi-finalist, Social Impact, 2017
-* Female Designer Talk & Network Party WOOWHO, Speaker, 2017
+* Female Designer Talk & Network Party WOOWHO, Speaker, 2017 -->
 
 
 <!--<a href="mailto:yujiinlee@gmail.com" class="button buttn--large">Contact</a>-->
