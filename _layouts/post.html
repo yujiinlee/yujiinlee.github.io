@@ -11,12 +11,11 @@ comments: true
 		<p>{{ page.date | date_to_long_string }}</p>
         
         <br>
-        <div class="fb-share-button" data-href="http://yujiinlee.github.io{{ page.url }}" data-layout="button"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">공유하기</a></div>
-        
-        <div class="fb-like fb-small" data-href="http://yujiinlee.github.io{{ page.url }}" data-width="" data-layout="button_count" data-action="like" data-share="false"></div>
-        
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        
+            <div style="display: flex; align-items : center;">
+                <div style="height: 20px; margin-right: 8px;" class="fb-like" data-href="http://yujiinlee.github.io{{ page.url }}" data-width="" data-layout="button_count" data-action="" data-size="" data-share="true"></div>
+
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+             </div>
         </div>
 
 </section>
@@ -29,11 +28,11 @@ comments: true
     </div>  
     <div class="comments">
         
-        <div class="fb-share-button" data-href="http://yujiinlee.github.io{{ page.url }}" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">공유하기</a></div>
-        
-        <div class="fb-like" data-href="http://yujiinlee.github.io{{ page.url }}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
-        
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div style="display: flex; align-items : center;">
+            <div style="margin-right: 8px;" class="fb-like" data-href="http://yujiinlee.github.io{{ page.url }}" data-width="" data-layout="button_count" data-action="" data-size="large" data-share="true"></div>
+
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+         </div>
         
     <div class="fb-comments" 
          data-href={{ site.url | append: page.url }}
