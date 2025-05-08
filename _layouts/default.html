@@ -72,6 +72,13 @@
 
 
 <body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
+	<div id="fb-root"></div>
+	<script
+		async
+		defer
+		crossorigin="anonymous"
+		src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v22.0&appId=586022718504523"
+	></script>
 
 	{% include ga.html %}
 	{% include header.html %}
