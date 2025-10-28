@@ -6,4 +6,5 @@ description:
 featured_image: '/img/00_projects/shs_neo/thumbnail.png'
 external_url: 'https://spoqa.github.io/spoqa-han-sans/'
 external_site: Spoqa Han Sans
+published: false
 ---

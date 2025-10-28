@@ -4,6 +4,7 @@ categories: 'Branding'
 date: 2018-06-30 00:00:00
 description: 
 featured_image: '/img/00_projects/spoqa_welcome/01.jpg'
+published: false
 ---
 ![](/img/00_projects/spoqa_welcome/01.jpg)
 
