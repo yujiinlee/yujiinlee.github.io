@@ -11,7 +11,7 @@ categories: Translation
 featured_image: '/img/opengraph.png'
 ---
 
-Figma의 컨퍼런스인 Config 2022에서 진행된 Inayaili León의 'DesignOps: The API of design teams'를 번역한 글입니다. 국내에서는 아직 생소한 Design Ops라는 조직을 좀 더 이해하는 데에 도움이 되길 바랍니다.
+Figma의 컨퍼런스인 Config 2022에서 진행된 Inayaili León의 ‘DesignOps: The API of design teams’를 번역한 글입니다. 국내에서는 아직 생소한 Design Ops라는 조직을 좀 더 이해하는 데에 도움이 되길 바랍니다.
 
 ----
 
@@ -21,18 +21,18 @@ Figma의 컨퍼런스인 Config 2022에서 진행된 Inayaili León의 'DesignOp
 - Design Ops라는 이름을 듣고 이게 내가 하는 일을 정의해줄 수 있겠구나! 하고 단번에 느꼈다.
 - Design Ops는 회사 안 팎으로 endpoint를 연결해주는 API와 같은 팀이다.
 - 서로 다른 것들이 상호작용 할 수 있도록 해준다.
-- 당신이 자각하고 있지 않아도 Desgin Ops일 수 있다.
+- 당신이 자각하고 있지 않아도 Design Ops일 수 있다.
 - Design Ops는 회사에 따라 매우 다른 일을 맡고 있다.
-- Design Ops는 팀이 가진 ‘간극'을 매우기 때문에, 각 팀이 가진 특성에 따라 다른 역할을 가질 수 밖에 없다.
+- Design Ops는 팀이 가진 ‘간극’을 매우기 때문에, 각 팀이 가진 특성에 따라 다른 역할을 가질 수 밖에 없다.
 
 <br>
 
 <img src="/img/2022-06-19/04.png" style="width: 85%">
 
-- 누군가 나에게 Design Ops가 뭐하는 역할이냐고 묻는다면, ‘디자이너를 위해 필요한 모든 일을 한다. 디자인만 빼고.'라고 답할 것이다. 
+- 누군가 나에게 Design Ops가 뭐하는 역할이냐고 묻는다면, ‘디자이너를 위해 필요한 모든 일을 한다. 디자인만 빼고.’라고 답할 것이다. 
 - 혹은 ‘디자이너를 위해 필요하지만 디자이너들이 할 수 없거나, 하지 않을 모든 일들을 한다’고 대답할 것이다.
 - Design Ops는 디자이너-디자이너, 디자이너-다른 관계자, 혹은 디자인 커뮤니티를 연결한다.
-    - **Design Ops는 풀(glue)과 같다.** 눈에 보이지 않지만 일이 꼬이고, 사람들이 사기가 떨어지기 시작하면 그 때서야 Design Ops가 없다는걸 느끼게 된다.
+    - **Design Ops는 풀(glue)과 같다.** 눈에 보이지 않지만 일이 꼬이고, 사람들이 사기가 떨어지기 시작하면 그때서야 Design Ops가 없다는 걸 느끼게 된다.
     - 보통 보이지 않고 눈에 띄지 않는 일들이다.
 
 <br>
@@ -78,9 +78,9 @@ Figma의 컨퍼런스인 Config 2022에서 진행된 Inayaili León의 'DesignOp
     - 이 문제를 해결하면 세상이 어떻게 바뀔 것인가?
 - 내 자신이 필요없는, 자동으로 굴러가는 시스템과 프로세스를 만들어라
 
-### Github의 Design Ops
+### GitHub의 Design Ops
 
-- Github에서도 Design Ops는 아직 안정된 것이 아니고 아직 빌딩중
+- GitHub에서도 Design Ops는 아직 안정된 것이 아니고 아직 빌딩중
 
 <img src="/img/2022-06-19/06.png" style="width: 85%">
 
